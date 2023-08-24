@@ -1,0 +1,335 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+}
+#header {
+  width: 100%;
+}
+nav {
+  padding: 10px 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+h1#logo {
+  margin: 0px;
+  color: #ec3737;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Inter";
+  padding: 0px 20px;
+}
+ul {
+  margin: 0px;
+  font-size: 15px;
+}
+li a {
+  padding: 0px 20px;
+  text-decoration: none;
+  color: #4d4242;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  height: 0%;
+  margin: 0px;
+}
+button#signUp {
+  border-style: solid;
+  border-color: #ec3737;
+  color: #ec3737;
+  background-color: white;
+  padding: 5px 25px;
+  border-radius: 25px;
+  font-size: 15px;
+  cursor: pointer;
+}
+button#signUp:active {
+  color: white;
+  background-color: #d63434;
+  border-color: #d63434;
+}
+a:hover {
+  color: #ec3737;
+}
+/*------------homePage-----------*/
+.homeDiv {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px 0px;
+}
+#box1 {
+  width: 500px;
+}
+#homeBox1 {
+  padding: 40px 0px 40px 40px;
+  width: 80%;
+}
+#slogan1 {
+  font-size: 55px;
+  margin-bottom: 0px;
+}
+#slogan2 {
+  margin-top: 0px;
+  float: right;
+  font-size: 45px;
+  padding-right: 30px;
+}
+span {
+  color: #ec3737;
+  font-weight: bold;
+}
+#homeBox2 {
+  padding: 40px;
+  width: 50%;
+}
+#home {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  padding: 50px 0px 50px 10px;
+}
+/*------------Limitless Trading-----------*/
+.TradDiv {
+  background-color: rgba(236, 55, 55, 0.05);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 40px;
+  flex-direction: column;
+}
+#tradTitle {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+#tradH2 {
+  font-size: 20px;
+  color: #5f5858;
+  text-align: center;
+}
+.bttnTrad {
+  padding: 40px;
+}
+.primaryBttn {
+  border-style: solid;
+  border-color: #ec3737;
+  color: white;
+  background-color: #ec3737;
+  padding: 6px 15px;
+  border-radius: 70px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.primaryBttn:active , .primaryBttn:hover {
+  background-color: white;
+  color: #ec3737;
+  border-color: white;
+}
+#trad2 {
+  color: #ec3737;
+  font-size: 15px;
+  padding: 20px;
+}
+#trad2:active {
+  color: white;
+}
+/*------------Limitless Trading-----------*/
+.garnerDiv {
+  display: flex;
+  flex-direction: row;
+  padding: 60px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+#gDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#garnerH1 {
+  font-size: 40px;
+}
+#garnerH2 {
+  font-size: 15px;
+  color: #5f5858;
+}
+#garnerImg {
+  padding: 40px;
+}
+/*------------Limitless Trading-----------*/
+.LightDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(236, 55, 55, 0.05);
+  flex-wrap: wrap;
+  padding: 40px;
+}
+#lightTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#lightH1 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+#lightH2 {
+  color: #4d4242;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+#lightH3 {
+  color: #5f5858;
+  font-size: 20px;
+  text-align: center;
+}
+.lightDivLists {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+}
+#lists {
+  background-color: rgba(236, 98, 55, 0.09);
+  width: 250px;
+  height: 180px;
+  padding: 10px;
+  border-radius: 20%;
+  margin: 20px;
+  transition: transform 0.3s , box-shadow 0.3s;
+}
+#listTitle {
+  color: #d63434;
+  text-align: center;
+}
+#listTitle:hover {
+  color: aliceblue;
+}
+#listP {
+  color: #4d4242;
+  text-align: center;
+}
+#lists:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+/*------------Limitless Trading-----------*/
+.buildDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+#buildImg {
+  margin: 20px;
+}
+#bDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 20px;
+  width: 300px;
+}
+#buildH1 {
+  text-align: right;
+  font-weight: bolder;
+}
+#buildH2 {
+  text-align: justify;
+  font-size: 20px;
+  margin-top: 0%;
+  color: #4d4242;
+}
+.buildBttn {
+  border-style: solid;
+  border-color: #ec3737;
+  color: #ec3737;
+  background-color: white;
+  padding: 6px 15px;
+  border-radius: 70px;
+  font-size: 15px;
+  float: right;
+  cursor: pointer;
+}
+.buildBttn:active , .buildBttn:hover{
+  background-color: #ec3737;
+  color: white;
+  border-color: #ec3737;
+}
+/*------------FinTech-----------*/
+.FinTech{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fCont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.fDiv{
+    background-color: rgba(236, 55, 55, 0.05);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    max-width: 800px;
+    margin: 50px 50px 0px 50px;
+}
+.finDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+#finH3{
+    color: #5f5858;
+}
+#finImg {
+    width: 350px;
+    height: 300px;
+    border-radius: 40px;
+    margin: 50px 20px 50px 10px;
+    object-fit: cover;
+}
+#finP{
+    text-align: center;
+    font-size: 20px;
+    color:#5f5858;
+    width: 500px;
+    margin-bottom: 50px;
+}
+/*------------footer-----------*/
+.lineBreak{
+    width: 80%;
+    height: 1px;
+    background-color: #5f5858;
+    margin: 0px auto;
+}
+.footer{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #5f5858;
+    font-size: 15px;
+}
