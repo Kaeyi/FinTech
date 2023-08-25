@@ -333,3 +333,12 @@ span {
     color: #5f5858;
     font-size: 15px;
 }
+a.footer{
+  text-decoration: none;
+  color: #5f5858;
+  margin: 15px;
+}
+
+a.footer:active {
+  color: #ec3737;
+}
